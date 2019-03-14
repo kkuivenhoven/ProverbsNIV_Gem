@@ -9,4 +9,5 @@ Gem::Specification.new do |s|
   s.files       = ["lib/proverbs_niv.rb"]
   s.homepage    = 'http://rubygems.org/gems/proverbs_niv'
   s.license     = 'MIT'
+	s.metadata    = { "source_code_uri" => "https://github.com/kkuivenhoven/ProverbsNIV_Gem" }
 end
