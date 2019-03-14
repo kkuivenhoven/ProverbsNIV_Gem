@@ -1,5 +1,5 @@
 # ProverbsNIV Gem
-A gem that consumes the Proverbs (NIV) endpoints from bookofproverbs.herokuapp.com/api/v1 -- gem information also available [here](https://rubygems.org/gems/proverbs_niv).
+A gem that consumes the Proverbs (NIV) endpoints from [Book of Proverbs web app](http://bookofproverbs.herokuapp.com/api/v1) -- gem information also available [here](https://rubygems.org/gems/proverbs_niv).
 
 ## Getting Started
 1. Add to Gemfile
