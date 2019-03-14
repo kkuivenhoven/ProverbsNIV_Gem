@@ -8,7 +8,7 @@ A gem that consumes the Proverbs (NIV) endpoints from [Book of Proverbs web app]
 3. Add `require 'proverbs_niv'` 
 4. Initialize library:
 		`ProverbNiv.init`
-5. Call any available method
+5. Call any available method (examples listed below)
 
 ### Available methods:
 1. Returns all chapters of Proverbs:<br>
