@@ -12,18 +12,18 @@ A gem that consumes the Proverbs (NIV) endpoints from [Book of Proverbs web app]
 
 ### Available methods:
 1. Returns all chapters of Proverbs:<br>
-	`ProverbNiv.getAllChapters`
+	`@chapters = ProverbNiv.getAllChapters`
 
 2. Returns chapter content of passed in chapter.
 		For example: passing 1 in for chapter 1:<br>
-		`ProverbNiv.getChapterContent(1)`
+		`@chapter_content = ProverbNiv.getChapterContent(1)`
 
 3. Returns all verses of passed in chapter.
 		For example: passing 1 in for chapter 1:<br>
-		`ProverbNiv.getChapterVerses(1)`
+		`@chapter_verses = ProverbNiv.getChapterVerses(1)`
 
 4. Returns recurrence count (with stop words) for passed in chapter.
 		For example: passing 1 in for chapter 1:<br>
-		`ProverbNiv.getChapterSwVerses(1)`
+		`@chapter_word_count_sw = ProverbNiv.getChapterSwVerses(1)`
 
 
