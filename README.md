@@ -22,8 +22,12 @@ A gem that consumes the Proverbs (NIV) endpoints from [Book of Proverbs web app]
 		For example: passing 1 in for chapter 1:<br>
 		`@chapter_verses = ProverbsNiv.getChapterVerses(1)`
 
-4. Returns recurrence count (with stop words) for passed in chapter.
+4. Returns recurrence count (with NO stop words) for passed in chapter.
 		For example: passing 1 in for chapter 1:<br>
-		`@chapter_word_count_sw = ProverbsNiv.getChapterSwVerses(1)`
+		`@chapter_word_count_sw = ProverbsNiv.getRecurrenceCountNoSw(1)`
+
+5. Returns recurrence count (with stop words) for passed in chapter.
+		For example: passing 1 in for chapter 1:<br>
+		`@chapter_word_count_sw = ProverbsNiv.getRecurrenceCountSw(1)`
 
 

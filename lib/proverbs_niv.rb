@@ -37,7 +37,7 @@ class ProverbsNiv
 		data = JSON.parse(resp.body)
 		data.each do |key, value|
 			@localHash = Hash.new
-			@proverb = ProverbsNiv.new(key, value["verses"], value["stop_worded_verses"])
+			@proverb = ProverbsNiv.new(key, value["verses"], value["stop_worded_verses"], value["rec_nsw"])
 			@localHash["chapter"] = @proverb.get_chapter
 			@localHash["verses"] = @proverb.get_verses
 			@localHash["rec_nsw"] = @proverb.get_rec_nsw
@@ -63,7 +63,7 @@ class ProverbsNiv
 		return @outerHash[chapNum.to_s]["rec_nsw"]
 	end	
 
-	def self.getChapterSwVerses(chapNum)
+	def self.getRecurrenceCountSw(chapNum)
 		return @outerHash[chapNum.to_s]["sw_rec_count"]
 	end	
 
