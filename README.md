@@ -1,5 +1,5 @@
 # ProverbsNIV Gem
-A gem that consumes the Proverbs (NIV) endpoints from bookofproverbs.herokuapp.com/api/v1.
+A gem that consumes the Proverbs (NIV) endpoints from bookofproverbs.herokuapp.com/api/v1 -- gem information also available [here](https://rubygems.org/gems/proverbs_niv).
 
 ## Getting Started
 1. Add to Gemfile
@@ -11,19 +11,19 @@ A gem that consumes the Proverbs (NIV) endpoints from bookofproverbs.herokuapp.c
 5. Call any available method
 
 ### Available methods:
-1. Returns all chapters of Proverbs:
-		`ProverbNiv.getAllChapters`
+1. Returns all chapters of Proverbs:<br>
+	`ProverbNiv.getAllChapters`
 
 2. Returns chapter content of passed in chapter.
-		For example: passing 1 in for chapter 1:
+		For example: passing 1 in for chapter 1:<br>
 		`ProverbNiv.getChapterContent(1)`
 
-3. Returns all verses of passed in chapter:
-		For example: passing 1 in for chapter 1:
+3. Returns all verses of passed in chapter.
+		For example: passing 1 in for chapter 1:<br>
 		`ProverbNiv.getChapterVerses(1)`
 
-4. Returns recurrence count (with stop words) for passed in chapter
-		For example: passing 1 in for chapter 1:
+4. Returns recurrence count (with stop words) for passed in chapter.
+		For example: passing 1 in for chapter 1:<br>
 		`ProverbNiv.getChapterSwVerses(1)`
 
 
