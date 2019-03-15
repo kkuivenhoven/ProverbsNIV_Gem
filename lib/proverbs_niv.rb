@@ -87,11 +87,11 @@ class ProverbsNiv
 		return @outerHash[chapNum.to_s]["verses"]
 	end	
 
-	def self.getRecurrenceCountNoSw(chapNum)
+	def self.getRecurCountNoSw(chapNum)
 		return @outerHash[chapNum.to_s]["rec_nsw"]
 	end	
 
-	def self.getRecurrenceCountSw(chapNum)
+	def self.getRecurCountSw(chapNum)
 		return @outerHash[chapNum.to_s]["sw_rec_count"]
 	end	
 

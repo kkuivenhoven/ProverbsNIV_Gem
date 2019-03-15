@@ -41,10 +41,10 @@ Additional gem information (i.e. download count, etc.) also available [here](htt
 
 8. Returns recurrence count (with NO stop words) for passed in chapter.
 		For example: passing 1 in for chapter 1:<br>
-		`@chapter_word_count_no_sw = ProverbsNiv.getRecurrenceCountNoSw(1)`
+		`@chapter_word_count_no_sw = ProverbsNiv.getRecurCountNoSw(1)`
 
 9. Returns recurrence count (with stop words) for passed in chapter.
 		For example: passing 1 in for chapter 1:<br>
-		`@chapter_word_count_sw = ProverbsNiv.getRecurrenceCountSw(1)`
+		`@chapter_word_count_sw = ProverbsNiv.getRecurCountSw(1)`
 
 
