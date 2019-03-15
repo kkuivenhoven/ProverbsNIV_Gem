@@ -25,7 +25,7 @@ Additional gem information (i.e. download count, etc.) also available [here](htt
 3. Returns recurrence count of each word (with NO stop words) for all chapters:<br>
 	 `@proverbs_rec_count_no_sw = ProverbsNiv.getRecurCountNoSwAllChapters`
 
-4. Returns recurrence count of each word (with NO stop words) for all chapters:<br>
+4. Returns recurrence count of each word (with stop words) for all chapters:<br>
 	 `@proverbs_rec_count_sw = ProverbsNiv.getRecurCountSwAllChapters`
 
 5. Returns chapters and verses of all of Proverbs:<br>
