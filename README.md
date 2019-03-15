@@ -22,10 +22,10 @@ Additional gem information (i.e. download count, etc.) also available [here](htt
 2. Returns content of all chapters of Proverbs:<br>
 	`@proverbs_content = ProverbsNiv.getContentOfAllChapters`
 
-3. Returns recurrence count of each word (with NO stop words) for all chapters:
+3. Returns recurrence count of each word (with NO stop words) for all chapters:<br>
 	 `@proverbs_rec_count_no_sw = ProverbsNiv.getRecurCountNoSwAllChapters`
 
-4. Returns recurrence count of each word (with NO stop words) for all chapters:
+4. Returns recurrence count of each word (with NO stop words) for all chapters:<br>
 	 `@proverbs_rec_count_sw = ProverbsNiv.getRecurCountSwAllChapters`
 
 5. Returns chapters and verses of all of Proverbs:<br>
