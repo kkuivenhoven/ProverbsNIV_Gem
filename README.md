@@ -22,19 +22,28 @@ Additional gem information (i.e. download count, etc.) also available [here](htt
 2. Returns content of all chapters of Proverbs:<br>
 	`@proverbs_content = ProverbsNiv.getContentOfAllChapters`
 
-3. Returns chapter content of passed in chapter.
+3. Returns recurrence count of each word (with NO stop words) for all chapters:
+	 `@proverbs_rec_count_no_sw = ProverbsNiv.getRecurCountNoSwAllChapters`
+
+4. Returns recurrence count of each word (with NO stop words) for all chapters:
+	 `@proverbs_rec_count_sw = ProverbsNiv.getRecurCountSwAllChapters`
+
+5. Returns chapters and verses of all of Proverbs:<br>
+	`@proverbs_verses = ProverbsNiv.getVersesOfAllChapters`
+
+6. Returns chapter content of passed in chapter.
 		For example: passing 1 in for chapter 1:<br>
 		`@chapter_content = ProverbsNiv.getChapterContent(1)`
 
-4. Returns all verses of passed in chapter.
+7. Returns all verses of passed in chapter.
 		For example: passing 1 in for chapter 1:<br>
 		`@chapter_verses = ProverbsNiv.getChapterVerses(1)`
 
-5. Returns recurrence count (with NO stop words) for passed in chapter.
+8. Returns recurrence count (with NO stop words) for passed in chapter.
 		For example: passing 1 in for chapter 1:<br>
 		`@chapter_word_count_no_sw = ProverbsNiv.getRecurrenceCountNoSw(1)`
 
-6. Returns recurrence count (with stop words) for passed in chapter.
+9. Returns recurrence count (with stop words) for passed in chapter.
 		For example: passing 1 in for chapter 1:<br>
 		`@chapter_word_count_sw = ProverbsNiv.getRecurrenceCountSw(1)`
 

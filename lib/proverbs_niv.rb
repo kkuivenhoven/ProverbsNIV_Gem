@@ -55,6 +55,30 @@ class ProverbsNiv
 		return @outerHash
 	end	
 
+	def self.getVersesOfAllChapters
+		@verses = Hash.new
+		@outerHash.each do |chap_num, chap_value|
+			@verses[chap_num] = chap_value["verses"]
+		end	
+		return @verses
+	end	
+
+	def self.getRecurCountNoSwAllChapters
+		@verses = Hash.new
+		@outerHash.each do |chap_num, chap_value|
+			@verses[chap_num] = chap_value["rec_nsw"]
+		end	
+		return @verses
+	end	
+
+	def self.getRecurCountSwAllChapters
+		@verses = Hash.new
+		@outerHash.each do |chap_num, chap_value|
+			@verses[chap_num] = chap_value["sw_rec_count"]
+		end	
+		return @verses
+	end	
+
 	def self.getChapterContent(chapNum)
 		return @outerHash[chapNum.to_s]
 	end	
