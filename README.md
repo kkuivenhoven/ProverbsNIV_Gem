@@ -20,7 +20,7 @@ Additional gem information (i.e. download count, etc.) also available [here](htt
 	`@chapter_nums = ProverbsNiv.getAllChapterNumbers`
 
 2. Returns content of all chapters of Proverbs:<br>
-	`@proverbs_content = ProverbsNiv.getContentOfAllChapters
+	`@proverbs_content = ProverbsNiv.getContentOfAllChapters`
 
 3. Returns chapter content of passed in chapter.
 		For example: passing 1 in for chapter 1:<br>
