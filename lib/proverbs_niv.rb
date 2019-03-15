@@ -47,8 +47,12 @@ class ProverbsNiv
 		return "init complete"
 	end
 
-	def self.getAllChapters
+	def self.getAllChapterNumbers
 		return @outerHash.keys
+	end	
+
+	def self.getContentOfAllChapters
+		return @outerHash
 	end	
 
 	def self.getChapterContent(chapNum)
